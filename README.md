@@ -1,6 +1,16 @@
-# FLAME fire detection experiments
+# FLAME 3 · Fire Detection Experiments
 
-This repository trains and evaluates fire versus no-fire image classifiers on FLAME 1, FLAME 2, and FLAME 3 data. It supports RGB images, thermal JPG or TIFF images, and paired RGB plus thermal inputs. The ablation script runs supported dataset and modality combinations with optional early or late fusion for paired inputs.
+**RGB imagery · Thermal imagery · Radiometric TIFF · Multimodal fusion**
+
+Training and evaluation code for fire versus no-fire classification with FLAME 1, FLAME 2, and FLAME 3 datasets. The project supports RGB, thermal JPG, radiometric thermal TIFF, and paired RGB plus thermal experiments.
+
+| Resource | Link |
+| --- | --- |
+| Research paper | [*FLAME 3 Dataset: Unleashing the Power of Radiometric Thermal UAV Imagery for Wildfire Management*](https://arxiv.org/pdf/2412.02831) |
+| FLAME 3 dataset | [IEEE DataPort](https://ieee-dataport.org/open-access/flame-3-radiometric-thermal-uav-imagery-wildfire-management) |
+| Computer vision subset | [Sycan Marsh on Kaggle](https://www.kaggle.com/datasets/brycehopkins/flame-3-computer-vision-subset-sycan-marsh) |
+
+The ablation suite runs supported dataset and modality combinations, with early or late fusion for paired inputs. Dataset files are hosted separately from this code repository.
 
 ## Setup
 
